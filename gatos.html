@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gatos</title>
     <style>
-        body {
+       body {
             font-family: Arial, sans-serif;
             display: flex;
             flex-direction: column;
@@ -13,6 +13,7 @@
             justify-content: center;
             min-height: 100vh;
             margin: 0;
+            background-color: #fff7e7; /* Fondo café claro tipo pastel */
         }
         img {
             max-width: 250px;
@@ -25,13 +26,23 @@
 
         nav a {
             text-decoration: none;
-            color: #333;
+            color: #000000;
             margin-right: 20px;
         }
         .nav-links {
             position: absolute;
             top: 10px;
             right: 10px;
+        }
+        .animal-box {
+            border: 2px solid #cca89b; /* Bordes de los cuadros */
+            padding: 10px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .animal-box:nth-child(1),
+        .animal-box:nth-child(2) {
+            order: -1; /* Cambia el orden de los dos primeros cuadros */
         }
     </style>
 </head>
@@ -46,20 +57,20 @@
       <h2> Nuestros gatos que buscan familia:</h2>
       <nav>
         <ul>
-            <li>
+            <li class="animal-box">
                 
                 <a href="ginger.html">
                     <img src="./assets/img/gato1.jpg" alt="imagen ginger">
                     Ginger
                 </a>
             </li>
-            <li>
+            <li class="animal-box">
                 <a href="tommy.html">
                     <img src="./assets/img/gato2.jpg" alt="imagen tommy">
                     Tommy
                 </a>
             </li>
-            <li>
+            <li class="animal-box">
                 <a href="lucifer.html">
                     <img src="./assets/img/gato3.jpg" alt="imagen lucifer">
                     Lucifer
