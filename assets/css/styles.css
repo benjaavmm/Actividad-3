@@ -20,16 +20,16 @@ img {
 
 /* Estilo para la barra de navegación */
 .navbar {
-    background-color: #f8f9fa; /* Color de fondo */
+    background-color: #759dc6; /* Color de fondo */
 }
 
 .navbar-brand {
-    color: #17a2b8; /* Color del texto del logo */
+    color: #23a3ad; /* Color del texto del logo */
     font-weight: bold;
 }
 
 .navbar-nav .nav-link {
-    color: #17a2b8; /* Color del texto de las opciones */
+    color: #23a3ad; /* Color del texto de las opciones */
     margin-right: 20px;
 }
 
