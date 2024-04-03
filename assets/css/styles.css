@@ -20,7 +20,7 @@ img {
 
 /* Estilo para la barra de navegación */
 .navbar {
-    background-color: #759dc6; /* Color de fondo */
+    background-color: #f5e6cc; /* Color de fondo café claro */
 }
 
 .navbar-brand {
@@ -48,5 +48,3 @@ img {
 .navbar-nav .nav-link.text-info:hover {
     color: #007bff; /* Color del texto al pasar el mouse */
 }
-
-
